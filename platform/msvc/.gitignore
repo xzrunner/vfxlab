@@ -1,0 +1,5 @@
+vfxlab/
+projects/*
+
+!projects/vfxlab.vcxproj
+!projects/vfxlab.vcxproj.filters
