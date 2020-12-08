@@ -2,6 +2,8 @@
 #include "vfxlab/PinType.h"
 #include "vfxlab/RegistNodes.h"
 
+#include <blueprint/Pin.h>
+
 #include <unirender/Device.h>
 #include <facade/ImageLoader.h>
 
@@ -12,6 +14,7 @@ namespace
 
 std::vector<std::pair<int, vfxgraph::VarType>> PAIR_TYPES = 
 {
+    { bp::PIN_PORT,            vfxgraph::VarType::Port },
 	{ vfxlab::PIN_TEXTURE,     vfxgraph::VarType::Texture },
 	{ vfxlab::PIN_FLOAT,       vfxgraph::VarType::Float },
 	{ vfxlab::PIN_FLOAT2,      vfxgraph::VarType::Float2 },
