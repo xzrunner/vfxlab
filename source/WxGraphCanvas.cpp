@@ -74,6 +74,8 @@ void WxGraphCanvas::DrawForeground() const
 
 bool WxGraphCanvas::OnUpdate()
 {
+    SetDirty();
+
 	bool dirty = false;
 	m_stage->Traverse([&](const ee0::GameObj& obj)->bool
 	{
