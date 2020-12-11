@@ -3,8 +3,8 @@
         [
             {
                 "position": [
-                    -12.0,
-                    -8.0
+                    -362.70806884765627,
+                    51.031639099121097
                 ],
                 "comp_type": "n2_transform"
             },
@@ -36,7 +36,7 @@
                         "from": "next",
                         "to": [
                             {
-                                "node_idx": 9,
+                                "node_idx": 5,
                                 "pin": "prev"
                             }
                         ]
@@ -47,7 +47,7 @@
                         "from": "next",
                         "to": [
                             {
-                                "node_idx": 9,
+                                "node_idx": 5,
                                 "pin": "prev"
                             }
                         ]
@@ -58,8 +58,8 @@
         [
             {
                 "position": [
-                    -243.3421173095703,
-                    67.40789794921875
+                    -524.513916015625,
+                    268.68817138671877
                 ],
                 "comp_type": "n2_transform"
             },
@@ -88,7 +88,7 @@
                     "width": 512,
                     "height": 512,
                     "format": "rgba32f",
-                    "wrap": "repeat",
+                    "wrap": "clamp_to_border",
                     "filter": "linear",
                     "props": []
                 },
@@ -103,7 +103,19 @@
                             },
                             {
                                 "node_idx": 9,
-                                "pin": "read"
+                                "pin": "velocities"
+                            },
+                            {
+                                "node_idx": 11,
+                                "pin": "velocities"
+                            },
+                            {
+                                "node_idx": 9,
+                                "pin": "field"
+                            },
+                            {
+                                "node_idx": 12,
+                                "pin": "velocities"
                             }
                         ]
                     },
@@ -122,7 +134,19 @@
                             },
                             {
                                 "node_idx": 9,
-                                "pin": "read"
+                                "pin": "velocities"
+                            },
+                            {
+                                "node_idx": 11,
+                                "pin": "velocities"
+                            },
+                            {
+                                "node_idx": 9,
+                                "pin": "field"
+                            },
+                            {
+                                "node_idx": 12,
+                                "pin": "velocities"
                             }
                         ]
                     },
@@ -136,8 +160,8 @@
         [
             {
                 "position": [
-                    -226.64474487304688,
-                    -116.97368621826172
+                    -507.8165283203125,
+                    84.30657958984375
                 ],
                 "comp_type": "n2_transform"
             },
@@ -203,8 +227,8 @@
         [
             {
                 "position": [
-                    -227.26316833496095,
-                    -164.89471435546876
+                    -504.7554931640625,
+                    36.38542175292969
                 ],
                 "comp_type": "n2_transform"
             },
@@ -229,8 +253,8 @@
                     },
                     "name": "node3",
                     "val": {
-                        "x": 80.0,
-                        "y": 80.0,
+                        "x": 30.0,
+                        "y": 0.0,
                         "z": 0.0
                     },
                     "props": []
@@ -263,8 +287,8 @@
         [
             {
                 "position": [
-                    -225.72366333007813,
-                    -214.78945922851563
+                    -506.8955078125,
+                    -14.192337036132813
                 ],
                 "comp_type": "n2_transform"
             },
@@ -319,8 +343,8 @@
         [
             {
                 "position": [
-                    6.634003639221191,
-                    -383.3420104980469
+                    -98.35619354248047,
+                    61.312049865722659
                 ],
                 "comp_type": "n2_transform"
             },
@@ -352,7 +376,7 @@
                         "from": "next",
                         "to": [
                             {
-                                "node_idx": 12,
+                                "node_idx": 9,
                                 "pin": "prev"
                             }
                         ]
@@ -363,7 +387,7 @@
                         "from": "next",
                         "to": [
                             {
-                                "node_idx": 12,
+                                "node_idx": 9,
                                 "pin": "prev"
                             }
                         ]
@@ -374,8 +398,8 @@
         [
             {
                 "position": [
-                    -225.4595489501953,
-                    -307.9341125488281
+                    42.99311828613281,
+                    -128.0281982421875
                 ],
                 "comp_type": "n2_transform"
             },
@@ -404,7 +428,7 @@
                     "width": 512,
                     "height": 512,
                     "format": "rgba32f",
-                    "wrap": "repeat",
+                    "wrap": "clamp_to_border",
                     "filter": "linear",
                     "props": []
                 },
@@ -418,8 +442,8 @@
                                 "pin": "tex"
                             },
                             {
-                                "node_idx": 12,
-                                "pin": "write"
+                                "node_idx": 11,
+                                "pin": "field"
                             }
                         ]
                     },
@@ -437,8 +461,8 @@
                                 "pin": "tex"
                             },
                             {
-                                "node_idx": 12,
-                                "pin": "write"
+                                "node_idx": 11,
+                                "pin": "field"
                             }
                         ]
                     },
@@ -452,8 +476,8 @@
         [
             {
                 "position": [
-                    -207.80284118652345,
-                    -503.0467224121094
+                    -270.6731262207031,
+                    -85.2274169921875
                 ],
                 "comp_type": "n2_transform"
             },
@@ -512,8 +536,8 @@
         [
             {
                 "position": [
-                    -204.61044311523438,
-                    -552.941650390625
+                    -267.4806823730469,
+                    -135.12240600585938
                 ],
                 "comp_type": "n2_transform"
             },
@@ -568,8 +592,8 @@
         [
             {
                 "position": [
-                    308.16033935546877,
-                    2.0372085571289064
+                    131.9299774169922,
+                    73.5673828125
                 ],
                 "comp_type": "n2_transform"
             },
@@ -601,7 +625,7 @@
                         "from": "next",
                         "to": [
                             {
-                                "node_idx": 13,
+                                "node_idx": 11,
                                 "pin": "prev"
                             }
                         ]
@@ -612,7 +636,7 @@
                         "from": "next",
                         "to": [
                             {
-                                "node_idx": 13,
+                                "node_idx": 11,
                                 "pin": "prev"
                             }
                         ]
@@ -623,8 +647,8 @@
         [
             {
                 "position": [
-                    176.13021850585938,
-                    -266.0140380859375
+                    227.09019470214845,
+                    -119.34427642822266
                 ],
                 "comp_type": "n2_transform"
             },
@@ -661,7 +685,7 @@
                                 "pin": "dt"
                             },
                             {
-                                "node_idx": 12,
+                                "node_idx": 11,
                                 "pin": "dt"
                             }
                         ]
@@ -676,7 +700,7 @@
                                 "pin": "dt"
                             },
                             {
-                                "node_idx": 12,
+                                "node_idx": 11,
                                 "pin": "dt"
                             }
                         ]
@@ -687,94 +711,8 @@
         [
             {
                 "position": [
-                    138.80642700195313,
-                    -43.228904724121097
-                ],
-                "comp_type": "n2_transform"
-            },
-            {
-                "filepath": "",
-                "name": "",
-                "id": 0,
-                "comp_type": "n0_identity"
-            },
-            {
-                "visible": true,
-                "editable": true,
-                "comp_type": "n0_flags"
-            },
-            {
-                "node_type": "vfxlab::texture",
-                "node_val": {
-                    "title": "Texture",
-                    "style": {
-                        "only_title": false,
-                        "small_title_font": false
-                    },
-                    "name": "node17",
-                    "filepath": "",
-                    "type": "2d",
-                    "width": 512,
-                    "height": 512,
-                    "format": "rgba32f",
-                    "wrap": "repeat",
-                    "filter": "linear",
-                    "props": []
-                },
-                "comp_type": "bp_node",
-                "connection": [
-                    {
-                        "from": "out",
-                        "to": [
-                            {
-                                "node_idx": 9,
-                                "pin": "write"
-                            },
-                            {
-                                "node_idx": 12,
-                                "pin": "read"
-                            },
-                            {
-                                "node_idx": 13,
-                                "pin": "read"
-                            }
-                        ]
-                    },
-                    {
-                        "from": "size",
-                        "to": []
-                    }
-                ],
-                "connection": [
-                    {
-                        "from": "out",
-                        "to": [
-                            {
-                                "node_idx": 9,
-                                "pin": "write"
-                            },
-                            {
-                                "node_idx": 12,
-                                "pin": "read"
-                            },
-                            {
-                                "node_idx": 13,
-                                "pin": "read"
-                            }
-                        ]
-                    },
-                    {
-                        "from": "size",
-                        "to": []
-                    }
-                ]
-            }
-        ],
-        [
-            {
-                "position": [
-                    348.5317687988281,
-                    -371.41595458984377
+                    364.01568603515627,
+                    74.83464813232422
                 ],
                 "comp_type": "n2_transform"
             },
@@ -804,13 +742,23 @@
                 "connection": [
                     {
                         "from": "next",
-                        "to": []
+                        "to": [
+                            {
+                                "node_idx": 12,
+                                "pin": "prev"
+                            }
+                        ]
                     }
                 ],
                 "connection": [
                     {
                         "from": "next",
-                        "to": []
+                        "to": [
+                            {
+                                "node_idx": 12,
+                                "pin": "prev"
+                            }
+                        ]
                     }
                 ]
             }
@@ -818,8 +766,8 @@
         [
             {
                 "position": [
-                    647.123779296875,
-                    -142.99769592285157
+                    547.6917724609375,
+                    89.17465209960938
                 ],
                 "comp_type": "n2_transform"
             },
@@ -855,76 +803,6 @@
                 "connection": [
                     {
                         "from": "next",
-                        "to": []
-                    }
-                ]
-            }
-        ],
-        [
-            {
-                "position": [
-                    515.665771484375,
-                    -189.50982666015626
-                ],
-                "comp_type": "n2_transform"
-            },
-            {
-                "filepath": "",
-                "name": "",
-                "id": 0,
-                "comp_type": "n0_identity"
-            },
-            {
-                "visible": true,
-                "editable": true,
-                "comp_type": "n0_flags"
-            },
-            {
-                "node_type": "vfxlab::texture",
-                "node_val": {
-                    "title": "Texture",
-                    "style": {
-                        "only_title": false,
-                        "small_title_font": false
-                    },
-                    "name": "node1710",
-                    "filepath": "",
-                    "type": "2d",
-                    "width": 512,
-                    "height": 512,
-                    "format": "rgba32f",
-                    "wrap": "repeat",
-                    "filter": "linear",
-                    "props": []
-                },
-                "comp_type": "bp_node",
-                "connection": [
-                    {
-                        "from": "out",
-                        "to": [
-                            {
-                                "node_idx": 13,
-                                "pin": "write"
-                            }
-                        ]
-                    },
-                    {
-                        "from": "size",
-                        "to": []
-                    }
-                ],
-                "connection": [
-                    {
-                        "from": "out",
-                        "to": [
-                            {
-                                "node_idx": 13,
-                                "pin": "write"
-                            }
-                        ]
-                    },
-                    {
-                        "from": "size",
                         "to": []
                     }
                 ]
