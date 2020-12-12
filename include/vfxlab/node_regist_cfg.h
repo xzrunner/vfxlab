@@ -24,6 +24,26 @@
 #define PARM_NODE_NAME float4
 #include EXE_FILEPATH
 
+#define NO_PARM_FILEPATH
+#define PARM_NODE_TYPE Add
+#define PARM_NODE_NAME add
+#include EXE_FILEPATH
+
+#define NO_PARM_FILEPATH
+#define PARM_NODE_TYPE Sub
+#define PARM_NODE_NAME sub
+#include EXE_FILEPATH
+
+#define NO_PARM_FILEPATH
+#define PARM_NODE_TYPE Mul
+#define PARM_NODE_NAME mul
+#include EXE_FILEPATH
+
+#define NO_PARM_FILEPATH
+#define PARM_NODE_TYPE Div
+#define PARM_NODE_NAME div
+#include EXE_FILEPATH
+
 #define PARM_NODE_TYPE Texture
 #define PARM_NODE_NAME texture
 #define ENABLE_NODE_PREVIEW
@@ -58,6 +78,15 @@
 #define NO_PARM_FILEPATH
 #define PARM_NODE_TYPE RBMethod
 #define PARM_NODE_NAME rb_method
+#include EXE_FILEPATH
+
+#define NO_PARM_FILEPATH
+#define PARM_NODE_TYPE MaxReduce
+#define PARM_NODE_NAME max_reduce
+#include EXE_FILEPATH
+
+#define PARM_NODE_TYPE BuoyantForce
+#define PARM_NODE_NAME buoyant_force
 #include EXE_FILEPATH
 
 #undef NODES_GROUP_NAME

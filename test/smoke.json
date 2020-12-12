@@ -3,8 +3,8 @@
         [
             {
                 "position": [
-                    -362.70806884765627,
-                    51.031639099121097
+                    -1527.6630859375,
+                    93.64564514160156
                 ],
                 "comp_type": "n2_transform"
             },
@@ -58,8 +58,8 @@
         [
             {
                 "position": [
-                    -558.9466552734375,
-                    256.83416748046877
+                    -1682.1015625,
+                    279.6483154296875
                 ],
                 "comp_type": "n2_transform"
             },
@@ -102,24 +102,16 @@
                                 "pin": "tex"
                             },
                             {
-                                "node_idx": 9,
-                                "pin": "velocities"
+                                "node_idx": 12,
+                                "pin": "field"
                             },
                             {
                                 "node_idx": 10,
-                                "pin": "velocities"
-                            },
-                            {
-                                "node_idx": 9,
                                 "pin": "field"
                             },
                             {
-                                "node_idx": 11,
-                                "pin": "velocities"
-                            },
-                            {
-                                "node_idx": 12,
-                                "pin": "field"
+                                "node_idx": 20,
+                                "pin": "density"
                             }
                         ]
                     },
@@ -137,24 +129,16 @@
                                 "pin": "tex"
                             },
                             {
-                                "node_idx": 9,
-                                "pin": "velocities"
+                                "node_idx": 12,
+                                "pin": "field"
                             },
                             {
                                 "node_idx": 10,
-                                "pin": "velocities"
-                            },
-                            {
-                                "node_idx": 9,
                                 "pin": "field"
                             },
                             {
-                                "node_idx": 11,
-                                "pin": "velocities"
-                            },
-                            {
-                                "node_idx": 12,
-                                "pin": "field"
+                                "node_idx": 20,
+                                "pin": "density"
                             }
                         ]
                     },
@@ -168,8 +152,8 @@
         [
             {
                 "position": [
-                    -507.8165283203125,
-                    84.30657958984375
+                    -1428.650634765625,
+                    -236.6265411376953
                 ],
                 "comp_type": "n2_transform"
             },
@@ -211,6 +195,10 @@
                             {
                                 "node_idx": 5,
                                 "pin": "pos"
+                            },
+                            {
+                                "node_idx": 15,
+                                "pin": "pos"
                             }
                         ]
                     }
@@ -226,6 +214,10 @@
                             {
                                 "node_idx": 5,
                                 "pin": "pos"
+                            },
+                            {
+                                "node_idx": 15,
+                                "pin": "pos"
                             }
                         ]
                     }
@@ -235,8 +227,8 @@
         [
             {
                 "position": [
-                    -504.7554931640625,
-                    36.38542175292969
+                    -1665.310302734375,
+                    89.99943542480469
                 ],
                 "comp_type": "n2_transform"
             },
@@ -261,9 +253,9 @@
                     },
                     "name": "node3",
                     "val": {
-                        "x": 20.0,
-                        "y": 0.0,
-                        "z": 0.0
+                        "x": 0.119999997317791,
+                        "y": 0.3100000023841858,
+                        "z": 0.699999988079071
                     },
                     "props": []
                 },
@@ -295,8 +287,8 @@
         [
             {
                 "position": [
-                    -506.8955078125,
-                    -14.192337036132813
+                    -1667.450439453125,
+                    39.42167282104492
                 ],
                 "comp_type": "n2_transform"
             },
@@ -320,7 +312,7 @@
                         "small_title_font": false
                     },
                     "name": "node4",
-                    "val": 2.0,
+                    "val": 0.5,
                     "props": []
                 },
                 "comp_type": "bp_node",
@@ -351,8 +343,8 @@
         [
             {
                 "position": [
-                    -120.31769561767578,
-                    58.38385772705078
+                    -1213.772705078125,
+                    99.89785766601563
                 ],
                 "comp_type": "n2_transform"
             },
@@ -384,7 +376,7 @@
                         "from": "next",
                         "to": [
                             {
-                                "node_idx": 12,
+                                "node_idx": 15,
                                 "pin": "prev"
                             }
                         ]
@@ -395,7 +387,7 @@
                         "from": "next",
                         "to": [
                             {
-                                "node_idx": 12,
+                                "node_idx": 15,
                                 "pin": "prev"
                             }
                         ]
@@ -406,8 +398,8 @@
         [
             {
                 "position": [
-                    -22.371261596679689,
-                    -134.03871154785157
+                    -1238.8284912109376,
+                    -88.47725677490235
                 ],
                 "comp_type": "n2_transform"
             },
@@ -450,8 +442,12 @@
                                 "pin": "tex"
                             },
                             {
-                                "node_idx": 10,
+                                "node_idx": 19,
                                 "pin": "field"
+                            },
+                            {
+                                "node_idx": 20,
+                                "pin": "temperature"
                             }
                         ]
                     },
@@ -469,8 +465,12 @@
                                 "pin": "tex"
                             },
                             {
-                                "node_idx": 10,
+                                "node_idx": 19,
                                 "pin": "field"
+                            },
+                            {
+                                "node_idx": 20,
+                                "pin": "temperature"
                             }
                         ]
                     },
@@ -484,8 +484,8 @@
         [
             {
                 "position": [
-                    -270.6731262207031,
-                    -85.2274169921875
+                    -1332.22802734375,
+                    95.98658752441406
                 ],
                 "comp_type": "n2_transform"
             },
@@ -510,9 +510,9 @@
                     },
                     "name": "node33",
                     "val": {
-                        "x": 1.0,
-                        "y": 0.699999988079071,
-                        "z": 0.30000001192092898
+                        "x": 20.0,
+                        "y": 0.0,
+                        "z": 0.0
                     },
                     "props": []
                 },
@@ -544,8 +544,8 @@
         [
             {
                 "position": [
-                    -267.4806823730469,
-                    -135.12240600585938
+                    -1329.03564453125,
+                    46.091575622558597
                 ],
                 "comp_type": "n2_transform"
             },
@@ -569,7 +569,7 @@
                         "small_title_font": false
                     },
                     "name": "node44",
-                    "val": 2.5,
+                    "val": 3.0,
                     "props": []
                 },
                 "comp_type": "bp_node",
@@ -600,8 +600,8 @@
         [
             {
                 "position": [
-                    422.0527038574219,
-                    53.05458068847656
+                    -67.44683837890625,
+                    193.85443115234376
                 ],
                 "comp_type": "n2_transform"
             },
@@ -655,8 +655,8 @@
         [
             {
                 "position": [
-                    629.25634765625,
-                    64.95775604248047
+                    195.6494140625,
+                    207.77880859375
                 ],
                 "comp_type": "n2_transform"
             },
@@ -688,7 +688,7 @@
                         "from": "next",
                         "to": [
                             {
-                                "node_idx": 11,
+                                "node_idx": 19,
                                 "pin": "prev"
                             }
                         ]
@@ -699,7 +699,7 @@
                         "from": "next",
                         "to": [
                             {
-                                "node_idx": 11,
+                                "node_idx": 19,
                                 "pin": "prev"
                             }
                         ]
@@ -710,8 +710,8 @@
         [
             {
                 "position": [
-                    821.7169189453125,
-                    83.6900634765625
+                    893.9376831054688,
+                    238.66427612304688
                 ],
                 "comp_type": "n2_transform"
             },
@@ -755,8 +755,8 @@
         [
             {
                 "position": [
-                    84.71617126464844,
-                    84.10118103027344
+                    -658.2078247070313,
+                    -213.0625
                 ],
                 "comp_type": "n2_transform"
             },
@@ -828,8 +828,8 @@
         [
             {
                 "position": [
-                    289.3426513671875,
-                    -184.60940551757813
+                    -392.12872314453127,
+                    -236.5183563232422
                 ],
                 "comp_type": "n2_transform"
             },
@@ -876,6 +876,10 @@
                             {
                                 "node_idx": 10,
                                 "pin": "dt"
+                            },
+                            {
+                                "node_idx": 19,
+                                "pin": "dt"
                             }
                         ]
                     }
@@ -900,6 +904,10 @@
                             {
                                 "node_idx": 10,
                                 "pin": "dt"
+                            },
+                            {
+                                "node_idx": 19,
+                                "pin": "dt"
                             }
                         ]
                     }
@@ -909,8 +917,8 @@
         [
             {
                 "position": [
-                    162.4283447265625,
-                    -196.05673217773438
+                    -521.4630737304688,
+                    -280.6356506347656
                 ],
                 "comp_type": "n2_transform"
             },
@@ -956,6 +964,464 @@
                             {
                                 "node_idx": 13,
                                 "pin": "a"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -892.2850952148438,
+                    89.15406799316406
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "vfxlab::add_splat",
+                "node_val": {
+                    "title": "AddSplat",
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node000",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 12,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 12,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -1009.087646484375,
+                    79.45767211914063
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "vfxlab::float3",
+                "node_val": {
+                    "title": "Float3",
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node331",
+                    "val": {
+                        "x": 10.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 15,
+                                "pin": "color"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 15,
+                                "pin": "color"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -1005.8951416015625,
+                    29.562660217285158
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "vfxlab::float1",
+                "node_val": {
+                    "title": "Float",
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node442",
+                    "val": 5.0,
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 15,
+                                "pin": "intensity"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 15,
+                                "pin": "intensity"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -975.1221313476563,
+                    541.1306762695313
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "vfxlab::texture",
+                "node_val": {
+                    "title": "Texture",
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node113",
+                    "filepath": "",
+                    "type": "2d",
+                    "width": 512,
+                    "height": 512,
+                    "format": "rgba32f",
+                    "wrap": "clamp_to_border",
+                    "filter": "linear",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 15,
+                                "pin": "tex"
+                            },
+                            {
+                                "node_idx": 9,
+                                "pin": "velocities"
+                            },
+                            {
+                                "node_idx": 10,
+                                "pin": "velocities"
+                            },
+                            {
+                                "node_idx": 19,
+                                "pin": "velocities"
+                            },
+                            {
+                                "node_idx": 9,
+                                "pin": "field"
+                            },
+                            {
+                                "node_idx": 11,
+                                "pin": "velocities"
+                            },
+                            {
+                                "node_idx": 20,
+                                "pin": "velocities"
+                            }
+                        ]
+                    },
+                    {
+                        "from": "size",
+                        "to": []
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 15,
+                                "pin": "tex"
+                            },
+                            {
+                                "node_idx": 9,
+                                "pin": "velocities"
+                            },
+                            {
+                                "node_idx": 10,
+                                "pin": "velocities"
+                            },
+                            {
+                                "node_idx": 19,
+                                "pin": "velocities"
+                            },
+                            {
+                                "node_idx": 9,
+                                "pin": "field"
+                            },
+                            {
+                                "node_idx": 11,
+                                "pin": "velocities"
+                            },
+                            {
+                                "node_idx": 20,
+                                "pin": "velocities"
+                            }
+                        ]
+                    },
+                    {
+                        "from": "size",
+                        "to": []
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    465.35125732421877,
+                    196.12193298339845
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "vfxlab::mc_advect",
+                "node_val": {
+                    "title": "MCAdvect",
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node84",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 20,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 20,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    710.1898803710938,
+                    -121.80516052246094
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "vfxlab::buoyant_force",
+                "node_val": {
+                    "title": "BuoyantForce",
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node12",
+                    "kappa": 0.25,
+                    "sigma": 0.10000000149011612,
+                    "t0": 10.0,
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 11,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 11,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    550.8812255859375,
+                    -196.7167510986328
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "vfxlab::float1",
+                "node_val": {
+                    "title": "Float",
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node13",
+                    "val": 0.05000000074505806,
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 20,
+                                "pin": "dt"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 20,
+                                "pin": "dt"
                             }
                         ]
                     }

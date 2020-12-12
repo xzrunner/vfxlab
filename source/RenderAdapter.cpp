@@ -15,6 +15,7 @@ namespace
 std::vector<std::pair<int, vfxgraph::VarType>> PAIR_TYPES = 
 {
     { bp::PIN_PORT,            vfxgraph::VarType::Port },
+    { bp::PIN_ANY_VAR,         vfxgraph::VarType::Any },
 	{ vfxlab::PIN_TEXTURE,     vfxgraph::VarType::Texture },
 	{ vfxlab::PIN_FLOAT,       vfxgraph::VarType::Float },
 	{ vfxlab::PIN_FLOAT2,      vfxgraph::VarType::Float2 },
